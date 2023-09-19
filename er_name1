@@ -1,0 +1,121 @@
+[33mcommit 7a43b3262213e28124b65fdf504891135c97cae9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: theLeandroLima <theLeandroLima@users.noreply.github.com>
+Date:   Thu Sep 14 21:40:25 2023 -0300
+
+    Retornando
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex be47837..01cc02c 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -7,6 +7,5 @@[m
+ </head>[m
+ <body>[m
+     <h1>Sistema de cadastro de jogos</h1>[m
+[31m-    <script src="app.js"></script>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit bd256112ccfa217f4d6c6dc53e5417bf5abcb344[m
+Author: theLeandroLima <theLeandroLima@users.noreply.github.com>
+Date:   Thu Sep 14 21:12:54 2023 -0300
+
+    Linkando o app js com o html
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 01cc02c..be47837 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -7,5 +7,6 @@[m
+ </head>[m
+ <body>[m
+     <h1>Sistema de cadastro de jogos</h1>[m
+[32m+[m[32m    <script src="app.js"></script>[m[41m[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit 1edcfbc5a63f31b014c1faf8e22368b0903eae27[m
+Author: theLeandroLima <theLeandroLima@users.noreply.github.com>
+Date:   Tue Sep 5 22:21:55 2023 -0300
+
+    Criando o arquivo index do projeto
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex da7dd33..2f6306e 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -4,3 +4,5 @@[m [mStatus do projeto: Em desenvolvimento[m
+ [m
+ [m
+ node app.js[m
+[32m+[m
+[32m+[m[32m:)[m
+\ No newline at end of file[m
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..01cc02c[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32m<!DOCTYPE html>[m[41m[m
+[32m+[m[32m<html lang="pt-br">[m[41m[m
+[32m+[m[32m<head>[m[41m[m
+[32m+[m[32m    <meta charset="UTF-8">[m[41m[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m[41m[m
+[32m+[m[32m    <title>Meus jogos</title>[m[41m[m
+[32m+[m[32m</head>[m[41m[m
+[32m+[m[32m<body>[m[41m[m
+[32m+[m[32m    <h1>Sistema de cadastro de jogos</h1>[m[41m[m
+[32m+[m[32m</body>[m[41m[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+
+[33mcommit 8abf8e3d2d2e0518562112644b468af45347fe08[m
+Author: theLeandroLima <theLeandroLima@users.noreply.github.com>
+Date:   Tue Sep 5 22:12:48 2023 -0300
+
+    Alterando README.md do projeto
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex aee5261..da7dd33 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -2,3 +2,5 @@[m
+ [m
+ Status do projeto: Em desenvolvimento[m
+ [m
+[32m+[m
+[32m+[m[32mnode app.js[m
+
+[33mcommit 1b32c6ebf1c4ad7c3b13826b0b08082e8fc255d5[m
+Author: theLeandroLima <theLeandroLima@users.noreply.github.com>
+Date:   Tue Sep 5 22:10:39 2023 -0300
+
+    Create app.js
+
+[1mdiff --git a/app.js b/app.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4f0a5af[m
+[1m--- /dev/null[m
+[1m+++ b/app.js[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mconsole.log("Rodando o sistema de gerenciamento de jogos")[m
+
+[33mcommit 84701d164f1a54d860f1bc34cb5683c106e552f5[m
+Author: theLeandroLima <theLeandroLima@users.noreply.github.com>
+Date:   Tue Sep 5 22:02:53 2023 -0300
+
+    Criando arquivo README
+
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..aee5261[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m<h1>Sistema de cadastro de jogos</h1>[m
+[32m+[m
+[32m+[m[32mStatus do projeto: Em desenvolvimento[m
+[32m+[m
